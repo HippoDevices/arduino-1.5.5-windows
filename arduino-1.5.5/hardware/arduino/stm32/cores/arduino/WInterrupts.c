@@ -35,7 +35,7 @@
   EXTI9_5_IRQn, //12
   EXTI15_10_IRQn, //13
   EXTI15_10_IRQn, //14
-  EXTI15_10_IRQn  //15
+  EXTI15_10_IRQn,  //15
 
     EXTI0_IRQn,     //0
   EXTI1_IRQn,    //
@@ -52,7 +52,7 @@
   EXTI15_10_IRQn, //12
   EXTI15_10_IRQn, //13
   EXTI15_10_IRQn, //14
-  EXTI15_10_IRQn  //15
+  EXTI15_10_IRQn,  //15
 
     EXTI0_IRQn,     //0
   EXTI1_IRQn,    //

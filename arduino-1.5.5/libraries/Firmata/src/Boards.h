@@ -227,7 +227,9 @@ writePort(port, value, bitmask):  Write an 8 bit port.
 #define IS_PIN_PWM(p)           digitalPinHasPWM(p) 
 #define PIN_TO_DIGITAL(p)       (p)
 #define PIN_TO_ANALOG(p)        (p>=15&&p<=18)?(p-15):( (p>=30&&p<=39)?(p-26):(p))
-#define PIN_TO_PWM(p)           (p>3)?((p>7)?((p>11)?((p>15)?(p):(p+24)):(p+20)):(p+18)):(p+8)
+#define PIN_TO_PWM(p)           (p>2)?((p>6)?((p>10)?((p>14)?(p):(p+17)):(p+15)):(p+8)):(p+3)
+
+//#define PIN_TO_PWM(p)           PIN_TO_PWM1(p) 
 
 
 // Teensy 1.0
